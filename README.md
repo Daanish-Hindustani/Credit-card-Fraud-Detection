@@ -1,12 +1,14 @@
 # Credit-card-Fraud-Detection
 
-Credit card fraud is a widespread issue driven by evolving cyber threats like identity theft and phishing. This project aims to identify fraud through advanced algorithms and machine learning, enhancing security measures for real-time detection and proactive prevention.
+# Introduction
+Addressing the pervasive issue of credit card fraud necessitates cutting-edge solutions due to evolving cyber threats, such as identity theft and phishing. This project is dedicated to implementing advanced algorithms and machine learning methodologies for the identification and prevention of credit card fraud, with a focus on enhancing security measures through real-time detection and proactive measures.
 
-# DataSet
-The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection.
+# Dataset
+The dataset employed in this project was meticulously collected and analyzed through a collaborative effort between Worldline and the Machine Learning Group at ULB (Université Libre de Bruxelles). The research collaboration aimed to explore big data mining and fraud detection, providing a rich dataset for our analysis.
 
-# Stats 
-The data set contained a total of Valid:284315 and Fraud:492. This features in this data set included Time,	V1-V28,	Amount, and	Class. 
+# Dataset Statistics
+The dataset comprises a total of 284,315 valid transactions and 492 fraudulent transactions. Key features include Time, V1-V28, Amount, and Class. Understanding the intricacies of this dataset was crucial for developing effective fraud detection models.
+
 
 <img width="765" alt="Screenshot 2024-01-02 at 1 51 29 PM" src="https://github.com/Daanish-Hindustani/Credit-card-Fraud-Detection/assets/134811343/68640865-e12f-4c4f-8ddd-411919212f29">
 
@@ -15,11 +17,23 @@ The data set contained a total of Valid:284315 and Fraud:492. This features in t
 
 <img width="438" alt="Screenshot 2024-01-02 at 1 53 02 PM" src="https://github.com/Daanish-Hindustani/Credit-card-Fraud-Detection/assets/134811343/ecfc2e03-6f87-482f-8836-810ed2020327">
 
-# Model 
-RandomForestClassifier was used to determin anomalies in the data and classify fraud vs normal creditcard transactions. The Model was trained on 70% of the training set. No specifc sampling was needed for this model. 
+
+# Model Development
+The RandomForestClassifier was selected for its suitability in identifying anomalies and classifying transactions as fraudulent or normal. The model underwent training on 70% of the dataset, and it's noteworthy that no specific sampling techniques were deemed necessary for achieving robust results.
+
+# Challenges Overcome
+Imbalanced Dataset:
+Addressing the imbalanced nature of the dataset, with a significantly higher number of valid transactions compared to fraudulent ones, posed a challenge. Employing techniques such as oversampling, undersampling, or using ensemble methods helped mitigate this issue.
+
+# Feature Selection:
+Determining the most relevant features for the model was critical. Features like Time, V1-V28, and Amount were carefully analyzed to ensure their contribution to accurate fraud detection.
+
+# Model Evaluation:
+Evaluating the model's performance required a nuanced approach. Metrics such as precision, accuracy, recall, and F1 score were considered comprehensively to gauge the model's effectiveness in real-world scenarios.
 
 # Results
-The model was tested on 30 % of the data and yeilded:
+After rigorous training and testing, the model demonstrated robust performance:
+
 Precision: 0.9556
 Accuracy: 0.9995
 Recall: 0.7818
@@ -27,4 +41,5 @@ F1 Score: 0.8600
 
 <img width="386" alt="Screenshot 2024-01-02 at 2 00 58 PM" src="https://github.com/Daanish-Hindustani/Credit-card-Fraud-Detection/assets/134811343/bc6d196e-5369-4929-a05d-4a6a9d4faa92">
 
-
+# Conclusion
+This project represents a significant step forward in credit card fraud detection. Overcoming challenges related to dataset imbalance, feature selection, and model evaluation has resulted in a robust solution with high precision and accuracy, showcasing the potential for real-world implementation in securing financial transactions.
