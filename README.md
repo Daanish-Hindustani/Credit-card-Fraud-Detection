@@ -1,7 +1,7 @@
 # Credit-card-Fraud-Detection
 
 # Introduction
-Addressing the pervasive issue of credit card fraud necessitates cutting-edge solutions due to evolving cyber threats, such as identity theft and phishing. This project is dedicated to implementing advanced algorithms and machine learning methodologies for the identification and prevention of credit card fraud, with a focus on enhancing security measures through real-time detection and proactive measures.
+Addressing the pervasive issue of credit card fraud necessitates cutting-edge solutions due to evolving cyber threats, such as identity theft and phishing. This project is dedicated to implementing machine learning methodologies for the identification and prevention of credit card fraud, with a focus on enhancing security measures through real-time detection and proactive measures.
 
 # Dataset
 The dataset employed in this project was meticulously collected and analyzed through a collaborative effort between Worldline and the Machine Learning Group at ULB (Université Libre de Bruxelles). The research collaboration aimed to explore big data mining and fraud detection, providing a rich dataset for our analysis.
